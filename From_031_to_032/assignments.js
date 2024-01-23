@@ -22,3 +22,15 @@ console.log(typeof num1 === typeof num2); // true
 console.log(num1 != num2); // true
 console.log(num1 !== num2); // true
 console.log(num1 <= num2); // true
+
+
+
+// Assignment 3
+
+let a = 20;
+let b = 30;
+let c = 10;
+
+console.log(a < b && a > c || a <= b); // true
+console.log(a < b && a > c); // true
+console.log(!(a > b) && !(a == b) && !(a < c) && !(a < c)); // true
