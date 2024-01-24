@@ -1,3 +1,5 @@
+console.log(`\n===== The Challenge Solution =====`);
+
 // Challenge 1  -  If Challenge
 
 let a = 10;
