@@ -133,3 +133,25 @@ let letter = "a";
 
 
 /* ========================================================= */
+
+// Assignment 6
+
+let start5 = 0;
+let swappedName = "elZerO";
+
+// Output
+// "ELzERo"
+
+// let newName = swappedName.split("");
+// let newArr = [];
+
+// for (let i = start5; i < newName.length; i++) {
+    //     if (newName[i] === newName[i].toLowerCase()) {
+//         newArr.push(newName[i].toUpperCase());
+//     } else {
+    //         newArr.push(newName[i].toLowerCase());
+    //     };
+// };
+
+
+/* ========================================================= */
