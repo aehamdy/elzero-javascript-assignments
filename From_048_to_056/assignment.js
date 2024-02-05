@@ -155,3 +155,21 @@ let swappedName = "elZerO";
 
 
 /* ========================================================= */
+
+// Assignment 7
+
+let start6 = 0;
+let mix = [1, 2, 3, "A", "B", "C", 4];
+
+// Output
+// 2
+// 3
+// 4
+
+// for (let i = start6; i < mix.length; i++) {
+//     if (mix[i] === +true || typeof mix[i] === "string") {
+//             continue;
+//         } else {
+//     console.log(mix[i]);
+// };
+// };
