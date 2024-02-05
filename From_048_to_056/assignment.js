@@ -102,3 +102,34 @@ let jump = 2;
 
 
 /* ========================================================= */
+
+// Assignment 5
+
+let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+let letter = "a";
+
+// Output
+// "1 => Sayed"
+// "2 => Eman"
+// "3 => Mahmoud"
+// "4 => Osama"
+// "5 => Sameh"
+
+// let zero = friends.indexOf("Ahmed");
+// let arr = [];
+
+// for (let i = zero; i < friends.length; i++) {
+    
+    //     if (friends[i][zero].toLowerCase() === letter) {
+        //         continue;
+        //     } else {
+//         arr.push(friends[i]);
+//     };
+// };
+
+// for (let j = zero; j < arr.length; j++){
+//     console.log(`${j} => ${arr[j]}`);
+// };
+
+
+/* ========================================================= */
