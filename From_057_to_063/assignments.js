@@ -68,5 +68,33 @@ function ageInTime(theAge) {
   }
   
   // Needed Output
-  ageInTime(110); // Age Out Of Range
-  ageInTime(38); // Months Example => 456 Months
+//   ageInTime(110); // Age Out Of Range
+//   ageInTime(38); // Months Example => 456 Months
+
+/* ========================================================= */
+
+// Assignment three
+
+function checkStatus(a, b, c) {
+    let name, age, status, message;
+    let data = [a, b, c];
+
+    for (let i = 0; i < data.length; i++) {
+        if (typeof data[i] === "string") {
+            name = data[i];
+        } else if (typeof data[i] === "number"){
+            age = data[i];
+        } else if (typeof data[i] === "boolean") {
+            status = data[i];
+            status === true ? message = "you're available for hiring" : message = "you're not available for hiring";
+        }
+    }
+
+    console.log(`Hello ${name}, your age is ${age}, and ${message}`);
+}
+
+// Needed Output
+//   checkStatus("Osama", 38, true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+//   checkStatus(38, "Osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+//   checkStatus(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+//   checkStatus(false, "Osama", 38); // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
