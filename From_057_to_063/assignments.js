@@ -73,7 +73,7 @@ function ageInTime(theAge) {
 
 /* ========================================================= */
 
-// Assignment three
+// Assignment four
 
 function checkStatus(a, b, c) {
     let name, age, status, message;
@@ -102,7 +102,7 @@ function checkStatus(a, b, c) {
 
 /* ========================================================= */
 
-// Assignment four
+// Assignment five
 
 function createSelectBox(startYear, endYear) {
     document.write("<select>");
@@ -112,3 +112,26 @@ function createSelectBox(startYear, endYear) {
     document.write("</select>");
 }
 createSelectBox(2000, 2021);
+
+
+
+/* ========================================================= */
+
+// Assignment six
+
+function multiply(...args) {
+    let result = 1;
+
+    for (let i = 0; i < args.length; i++) {
+        if (typeof args[i] === "number") {
+            result *= parseInt(args[i]);
+            // other solutions => Math.trunc(args[i]) or Math.floor(args[i])
+        }
+    }
+
+    console.log(result);
+}
+
+multiply(10, 20); // 200
+multiply("A", 10, 30); // 300
+multiply(100.5, 10, "B"); // 1000
