@@ -98,3 +98,17 @@ function checkStatus(a, b, c) {
 //   checkStatus(38, "Osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 //   checkStatus(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 //   checkStatus(false, "Osama", 38); // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
+
+
+/* ========================================================= */
+
+// Assignment four
+
+function createSelectBox(startYear, endYear) {
+    document.write("<select>");
+    for (let i = startYear; i <= endYear; i++) {
+        document.write(`<option value=${i}>${i}</option>`);
+    }
+    document.write("</select>");
+}
+createSelectBox(2000, 2021);
